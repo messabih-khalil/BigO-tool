@@ -1,0 +1,66 @@
+<script>
+	import '../assets/css/style.css';
+</script>
+
+<div class="guide-table">
+	<table>
+		<thead>
+			<tr>
+				<th>Symbol</th>
+				<th>Guidance</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Multiplication</td>
+				<td>*</td>
+			</tr>
+			<tr>
+				<td>Division</td>
+				<td>/</td>
+			</tr>
+			<tr>
+				<td>Addition</td>
+				<td>+</td>
+			</tr>
+			<tr>
+				<td>Subtraction</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>Power</td>
+				<td>^</td>
+			</tr>
+			<tr>
+				<td>Cos</td>
+				<td>cos()</td>
+			</tr>
+			<tr>
+				<td>Sin</td>
+				<td>sin()</td>
+			</tr>
+			<tr>
+				<td>Tan</td>
+				<td>tan()</td>
+			</tr>
+			<tr>
+				<td>Exponent</td>
+				<td>exp()</td>
+			</tr>
+			<tr>
+				<td>Factorielle</td>
+				<td>fact()</td>
+			</tr>
+			<tr>
+				<td>Root</td>
+				<td>sqrt()</td>
+			</tr>
+			<tr>
+				<td>Logarithm</td>
+				<td>log()</td>
+			</tr>
+			<tr />
+		</tbody>
+	</table>
+</div>
+

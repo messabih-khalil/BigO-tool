@@ -1,0 +1,159 @@
+.timefinder {
+	color: white;
+}
+
+.time-finder {
+	display: flex;
+	/* align-items: center; */
+	margin: 4rem 0 1rem 0;
+}
+
+.input-and-chart {
+	width: 75%;
+	height: 100%;
+	/* background-color: red; */
+	margin-right: 1rem;
+}
+.guide-table {
+	width: 25%;
+	background-color: grey;
+}
+table,
+th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	font-size: 20px;
+	font-weight: 700;
+}
+table {
+	width: 100%;
+	height: 100%;
+}
+td {
+	padding: 0.5rem;
+}
+
+.inputs {
+	display: flex;
+	align-items: center;
+}
+
+.input {
+	margin-bottom: 1rem;
+}
+
+.title {
+	color: white;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.notice-hint {
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(0, 255, 0);
+}
+.equation-input {
+	width: 60%;
+	margin-right: 1rem;
+}
+
+.size-input {
+	width: 40%;
+}
+.input-body {
+	width: 100%;
+	background-color: #12151c;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+	border-radius: 10px;
+}
+
+.input-body input {
+	background: transparent;
+	border: none;
+	width: 100%;
+	padding: 1rem;
+	color: white;
+	font-size: 20px;
+}
+
+.error {
+	border: 1px solid red;
+}
+.input-body i {
+	font-size: 24px;
+}
+input:focus {
+	outline: none;
+}
+
+.run-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.1rem 2rem;
+	border-radius: 10px;
+	border: 3px solid #12b386;
+	background-color: #12b386;
+	color: white;
+	font-size: 18px;
+
+	cursor: pointer;
+
+	transition: 0.3s;
+}
+
+.run-button:hover {
+	background-color: transparent;
+	color: #12b386;
+}
+.run-button i {
+	font-size: 22px;
+	margin-right: 0.5rem;
+}
+
+/* result */
+.result {
+	margin: 1rem 0;
+}
+
+.bigo-result {
+	color: #12b386;
+}
+
+.chart-box {
+	height: 420px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .guide-table{
+		display: none;
+	}
+	.input-and-chart{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 700px){
+	.guide-table{
+		display: none;
+	}
+	.input-and-chart{
+		width: 100%;
+	}
+	.inputs{
+		flex-direction: column;
+		align-items: start;
+	}
+	.equation-input {
+		width: 100%;
+	}
+	
+	.size-input {
+		width: 100%;
+	}
+}
