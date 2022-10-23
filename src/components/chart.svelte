@@ -1,4 +1,7 @@
 <script>
+	import chartjs from 'chart.js';
+
+	let chartCanvas;
 	export const renderChart = (resultGen, bigOresult) => {
 		let data = {
 			labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
@@ -11,8 +14,7 @@
 				}
 			]
 		};
-		const ctx = document.getElementById('myChart');
-		Chart.pluginService.register({
+		chartjs.pluginService.register({
 			beforeInit: function (chart) {
 				let data = chart.config.data;
 				// empty list
@@ -24,10 +26,17 @@
 				}
 			}
 		});
-		new Chart(ctx, {
+
+		let ctx = chartCanvas.getContext('2d');
+		new chartjs(ctx, {
 			type: 'line',
 			data: data,
 			options: {
+				plugins: {
+					legend: {
+						display: false
+					}
+				},
 				maintainAspectRatio: false,
 				elements: {
 					point: {
@@ -61,7 +70,7 @@
 <div class="charts">
 	<div class="chart-items">
 		{#key renderChart}
-			<canvas id="myChart" />
+			<canvas bind:this={chartCanvas} id="myChart" />
 		{/key}
 	</div>
 </div>
