@@ -1,20 +1,21 @@
 <nav>
 	<div class="container nav-items">
-		<!-- logo -->
-		<div class="logo">
-			<i class="ri-cpu-line" />
-			<span>BigO Tool</span>
+		<div class="navbar">
+			<div class="logo">
+				<i class="ri-cpu-line" />
+				<span>BigO Tool</span>
+			</div>
+			<!-- navigation -->
+			<ul>
+				<li>
+					<a href="/codeanalyzer">
+						<i class="ri-code-s-slash-line" />
+						<span>Code Analyzer</span>
+					</a>
+				</li>
+			</ul>
 		</div>
-		<!-- navigation -->
-		<ul>
-			<li>
-				<a href="/codeanalyzer">
-					<i class="ri-code-s-slash-line"></i>
-					<span>Code Analyzer</span>
-				</a>
-			</li>
-		
-		</ul>
+
 	</div>
 </nav>
 
@@ -25,17 +26,21 @@
 	.nav-items {
 		color: white;
 		padding: 22px 0;
-		font-size: 28px;
+		font-size: 20px;
 		font-weight: 700;
 		display: flex;
 		align-items: center;
 		/* justify-content: space-between; */
+		justify-content: space-between;
 	}
 
-	p {
-		border: 2px solid white;
-		padding: 0.5rem;
-		border-radius: 10px;
+	.navbar {
+		display: flex;
+	}
+
+	.ri-book-read-line {
+		color: yellow;
+		display: none;
 	}
 	ul {
 		list-style: none;
@@ -48,7 +53,7 @@
 		color: whitesmoke;
 		text-decoration: none;
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 18px;
 		display: flex;
 		align-items: center;
 		margin-right: 1rem;
@@ -59,7 +64,7 @@
 	}
 
 	a i {
-		font-size: 26px;
+		font-size: 20px;
 		margin-right: 0.5rem;
 	}
 
@@ -72,4 +77,6 @@
 	.logo i {
 		margin-right: 1rem;
 	}
+
+
 </style>

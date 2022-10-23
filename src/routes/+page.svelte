@@ -3,7 +3,6 @@
 	import Navbar from '../components/navbar.svelte';
 	import Chart from '../components/chart.svelte';
 	import Table from '../components/table.svelte';
-
 	// import library
 	import 'remixicon/fonts/remixicon.css';
 	import { EquationTester } from '../actions/equationTester';

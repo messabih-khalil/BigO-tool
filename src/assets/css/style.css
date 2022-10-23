@@ -23,7 +23,7 @@ th,
 td {
 	border: 1px solid white;
 	border-collapse: collapse;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 }
 table {
@@ -45,13 +45,13 @@ td {
 
 .title {
 	color: white;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 1rem;
 }
 
 .notice-hint {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	color: rgb(0, 255, 0);
 }
