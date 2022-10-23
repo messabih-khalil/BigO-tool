@@ -6,14 +6,14 @@
 				<span>BigO Tool</span>
 			</div>
 			<!-- navigation -->
-			<ul>
+			<!-- <ul>
 				<li>
 					<a href="/codeanalyzer">
 						<i class="ri-code-s-slash-line" />
 						<span>Code Analyzer</span>
 					</a>
 				</li>
-			</ul>
+			</ul> -->
 		</div>
 
 	</div>
@@ -36,36 +36,6 @@
 
 	.navbar {
 		display: flex;
-	}
-
-	.ri-book-read-line {
-		color: yellow;
-		display: none;
-	}
-	ul {
-		list-style: none;
-		display: flex;
-		align-items: center;
-		margin-left: 2rem;
-	}
-
-	a {
-		color: whitesmoke;
-		text-decoration: none;
-		font-weight: 500;
-		font-size: 18px;
-		display: flex;
-		align-items: center;
-		margin-right: 1rem;
-	}
-
-	a:hover {
-		color: rgb(43, 226, 171);
-	}
-
-	a i {
-		font-size: 20px;
-		margin-right: 0.5rem;
 	}
 
 	.logo {
