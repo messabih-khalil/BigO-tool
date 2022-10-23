@@ -32,7 +32,7 @@
 		} else if (inputSize == undefined) {
 			inputSizeValidator = false;
 		} else {
-			let result = new EquationTester(inputEquation);
+			let result = new EquationTester(inputEquation.toLowerCase());
 			bigOresult = result.higherOrder();
 			// calculate number of itterations
 			if (bigOresult == 'O(1)') {
